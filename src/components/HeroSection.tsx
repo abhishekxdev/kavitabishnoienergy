@@ -146,7 +146,7 @@ export default function HeroSection() {
                                 {/* Image under CTA */}
                                 <div className="mt-4 flex justify-center">
                                     <img
-                                        src="https://res.cloudinary.com/doevp9obh/image/upload/v1757057506/ChatGPT_Image_Sep_5_2025_01_01_30_PM_e5a85v.png"
+                                        src="/solarhero.png"
                                         alt="Solar energy illustration"
                                         className="max-w-4xl w-full h-auto"
                                     />

@@ -83,7 +83,7 @@ export default function HeroSection() {
                                     <a
                                         href="#link"
                                         className="hover:bg-green-100 dark:hover:border-t-green-300 bg-green-50 group mx-auto flex w-fit items-center gap-2 md:gap-4 rounded-full border border-green-200 p-0.5 md:p-1 pl-2 md:pl-4 shadow-md shadow-zinc-950/5 transition-colors duration-300 dark:border-t-green-300 dark:shadow-zinc-950">
-                                        <span className="text-green-800 text-xs md:text-sm">Renewable Energy Solutions</span>
+                                        <span className="text-green-800 text-xs md:text-sm">Supplying Solar Power to Government</span>
                                         <span className="dark:border-green-300 block h-3 md:h-4 w-0.5 border-l bg-green-200 dark:bg-green-400"></span>
 
                                         <div className="bg-green-100 group-hover:bg-green-200 size-5 md:size-6 overflow-hidden rounded-full duration-500">
@@ -104,7 +104,7 @@ export default function HeroSection() {
                                     speedSegment={0.3}
                                     as="h1"
                                     className="mx-auto mt-4 max-w-5xl text-4xl md:text-5xl lg:mt-8 xl:text-6xl">
-                                    Sustainable Solar Energy Solutions<br />For Sustainable Future
+                                    Supplying Solar Energy from Plants<br />to Government & Utilities
                                 </TextEffect>
                                 <TextEffect
                                     per="line"
@@ -113,7 +113,7 @@ export default function HeroSection() {
                                     delay={0.5}
                                     as="p"
                                     className="mx-auto mt-8 max-w-2xl text-balance text-lg">
-                                  Leading manufacturers of high-efficiency solar panels, delivering clean and <br/> renewable energy solutions tailored for residential, commercial, and industrial needs.
+                                  We aggregate and deliver utility-scale solar generation from our partner plants to government buyers—DISCOMs, public agencies, and utilities—ensuring compliant PPAs, reliable delivery, and grid integration.
                                 </TextEffect>
 
                                 <AnimatedGroup
@@ -136,8 +136,8 @@ export default function HeroSection() {
                                             size="lg"
                                             className="rounded-xl px-5 text-base"
                                             asChild>
-                                            <a href="https://wa.me/9828215566" target="_blank" rel="noopener noreferrer">
-                                                <span className="text-nowrap">Contact Us</span>
+                                            <a href="https://wa.me/9950618424" target="_blank" rel="noopener noreferrer">
+                                                <span className="text-nowrap">Talk to Procurement Team</span>
                                             </a>
                                         </Button>
                                     </div>

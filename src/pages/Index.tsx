@@ -37,9 +37,9 @@ const Index = () => {
 
             <div className="relative space-y-4">
               <p className="text-muted-foreground">
-                Kavita Bishnoi Energy Pvt. Ltd. is a trusted solar panel manufacturing company committed to driving the shift towards renewable energy. With cutting-edge technology, superior quality products, and a dedication to sustainability, we empower individuals and businesses to reduce their carbon footprint while enjoying reliable and affordable power solutions.
+                Kavita Bishnoi Energy Pvt. Ltd. supplies solar energy from utility-scale plants to government buyers. We structure bankable PPAs, manage scheduling and SLDC coordination, and ensure reliable delivery to DISCOMs and public sector entities across India.
               </p>
-              <p className="text-muted-foreground">Our mission is to make clean energy accessible to everyone, providing innovative solar solutions that combine efficiency, durability, and environmental responsibility for a brighter, more sustainable future.</p>
+              <p className="text-muted-foreground">Our mission is to accelerate India's clean energy transition by bridging solar generation with government demand—delivering compliant, reliable, and cost-effective power at scale.</p>
 
             </div>
           </div>
@@ -59,7 +59,7 @@ const Index = () => {
               </h2>
             </div>
             <p className="text-black/70 text-lg max-w-2xl">
-              Our values drive every solar solution—sustainability, innovation, reliability, and excellence—creating clean energy systems that power homes, businesses, and communities for generations.
+              Our values guide every contract and megawatt delivered—compliance, transparency, reliability, and sustainability—powering public infrastructure with clean solar energy.
             </p>
           </div>
           
@@ -100,8 +100,8 @@ const Index = () => {
       <section id="services" className="py-16 md:py-32">
         <div className="@container mx-auto max-w-5xl px-6">
           <div className="text-center">
-            <h2 className="text-balance text-4xl font-light lg:text-5xl">Our Solar Services</h2>
-            <p className="mt-4">Comprehensive solar energy solutions designed to power your future with clean, renewable energy.</p>
+            <h2 className="text-balance text-4xl font-light lg:text-5xl">Government Solar Power Supply</h2>
+            <p className="mt-4">End-to-end supply of solar energy from plants to government buyers with full regulatory compliance.</p>
           </div>
           <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-3 gap-6 [--color-background:var(--color-muted)] [--color-card:var(--color-muted)] *:text-center md:mt-16 dark:[--color-muted:var(--color-zinc-900)]">
             <Card className="group border border-gray-200 shadow-none">
@@ -113,11 +113,11 @@ const Index = () => {
                   />
                 </CardDecorator>
 
-                <h3 className="mt-6 font-medium">Solar Installation</h3>
+                <h3 className="mt-6 font-medium">PPA Structuring & Bidding</h3>
               </CardHeader>
 
               <CardContent>
-                <p className="text-sm">Professional installation of high-efficiency solar panels for residential, commercial, and industrial properties.</p>
+                <p className="text-sm">Drafting and negotiating PPAs, tender participation, tariff discovery, and risk allocation aligned with state and central policies.</p>
               </CardContent>
             </Card>
 
@@ -130,11 +130,11 @@ const Index = () => {
                   />
                 </CardDecorator>
 
-                <h3 className="mt-6 font-medium">System Maintenance</h3>
+                <h3 className="mt-6 font-medium">Scheduling & SLDC Coordination</h3>
               </CardHeader>
 
               <CardContent>
-                <p className="mt-3 text-sm">Regular maintenance and monitoring services to ensure optimal performance and longevity of your solar system.</p>
+                <p className="mt-3 text-sm">Day-ahead scheduling, real-time revisions, forecasting, and compliance with SLDC/RLDC protocols for seamless dispatch.</p>
               </CardContent>
             </Card>
 
@@ -147,11 +147,11 @@ const Index = () => {
                   />
                 </CardDecorator>
 
-                <h3 className="mt-6 font-medium">Energy Consulting</h3>
+                <h3 className="mt-6 font-medium">Metering, Billing & Settlement</h3>
               </CardHeader>
 
               <CardContent>
-                <p className="mt-3 text-sm">Expert consultation on energy efficiency, system design, and renewable energy solutions tailored to your needs.</p>
+                <p className="mt-3 text-sm">ABT-compliant metering, monthly energy accounting, deviation charges management, and transparent invoicing for DISCOMs and agencies.</p>
               </CardContent>
             </Card>
           </div>
@@ -167,12 +167,23 @@ const Index = () => {
             </div>
             <div className="mb-6">
               <h2 className="text-4xl md:text-5xl font-light leading-tight">
-                Featured Solar Projects
+                Featured Government Power Supply Projects
               </h2>
             </div>
             <p className="text-black/70 text-lg max-w-2xl">
-              Explore our featured government solar projects, showcasing our high-efficiency solar panel manufacturing capabilities, advanced technology, and commitment to sustainable energy solutions for public infrastructure.
+              Explore our recent supply contracts and successful delivery of solar power to government buyers, demonstrating our compliance, reliability, and grid readiness.
             </p>
+            <div className="mt-8">
+              <Button 
+                variant="outline" 
+                className="border-black text-black hover:bg-black hover:text-white rounded-xl px-6 py-3"
+                asChild
+              >
+                <a href="/projects">
+                  View all projects
+                </a>
+              </Button>
+            </div>
           </div>
 
           {/* Project Cards */}
@@ -188,9 +199,9 @@ const Index = () => {
                     <span className="text-black/40 text-sm ml-auto">10 Aug 2025</span>
                   </div>
                   <div className="w-full h-32 bg-gray-200 rounded-lg mb-4 bg-[url('/solar1.jpg')] bg-cover bg-center"></div>
-                  <h3 className="text-xl font-semibold mb-2">National Solar Farm Project</h3>
+                  <h3 className="text-xl font-semibold mb-2">ARTA (Plant No.-1) — 2.00 MW</h3>
                   <p className="text-black/70 text-sm">
-                    Manufacturing and supplying 50MW of high-efficiency solar panels for a government solar farm, featuring advanced monitoring systems and grid integration.
+                    Circle: Barmer · Division: XEN (O&amp;M), Gudamalani · Sub-division: AEN (O&amp;M) Fagaliya · Plant: ARTA (Plant No.-1) · Capacity: 2.00 MW
                   </p>
                 </div>
               </div>
@@ -207,13 +218,52 @@ const Index = () => {
                     <span className="text-black/40 text-sm ml-auto">28 Sep 2025</span>
                   </div>
                   <div className="w-full h-32 bg-gray-200 rounded-lg mb-4 bg-[url('/solar2.jpg')] bg-cover bg-center"></div>
-                  <h3 className="text-xl font-semibold mb-2">Government Building Solar Initiative</h3>
+                  <h3 className="text-xl font-semibold mb-2">DHINPURA (Plant No.-1) — 2.00 MW</h3>
                   <p className="text-black/70 text-sm">
-                    Supplying high-efficiency solar panels for government buildings, reducing carbon footprint and energy costs while promoting sustainable infrastructure.
+                    Circle: Jalore · Division: XEN (O&amp;M), Sanchore · Sub-division: AEN (O&amp;M) Sanchore · Plant: DHINPURA (Plant No.-1) · Capacity: 2.00 MW
                   </p>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Directors Section */}
+      <section id="directors" className="relative z-10 bg-white text-black py-24">
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="mb-12 text-center">
+            <span className="text-black/60 text-sm font-medium tracking-wider uppercase">Leadership</span>
+            <h2 className="mt-4 text-4xl md:text-5xl font-light">Our Directors</h2>
+            <p className="mt-4 text-black/70 max-w-2xl mx-auto">Guiding our mission to deliver reliable, compliant solar power to government buyers with integrity and operational excellence.</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <Card className="border border-gray-200 shadow-none">
+              <div className="h-64 bg-white overflow-hidden flex items-center justify-center">
+                <img src="/mohanlal.png" alt="Director" className="w-full h-full object-contain" />
+              </div>
+              <CardHeader>
+                <h3 className="text-xl font-semibold">Mohanlal Godara</h3>
+                <p className="text-sm text-black/60">Director</p>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-black/70">Leads strategic partnerships, compliance oversight, and government buyer relationships, ensuring bankable contracts and dependable delivery.</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border border-gray-200 shadow-none">
+              <div className="h-64 bg-white overflow-hidden flex items-center justify-center">
+                <img src="/mahipal.png" alt="Director" className="w-full h-full object-contain" />
+              </div>
+              <CardHeader>
+                <h3 className="text-xl font-semibold">Mahipal Saran</h3>
+                <p className="text-sm text-black/60">Director</p>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-black/70">Oversees operations, scheduling, and SLDC coordination—maintaining grid compliance, forecasting accuracy, and settlement performance.</p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
@@ -234,13 +284,13 @@ const Index = () => {
                 className="border-black text-black hover:bg-black hover:text-white rounded-none px-6 py-2"
                 asChild
               >
-                <a href="https://wa.me/9828215566" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/9950618424" target="_blank" rel="noopener noreferrer">
                   Contact Us
                 </a>
               </Button>
             </div>
             <p className="text-black/70 text-lg">
-              Find answers to common questions about our solar panel manufacturing capabilities, government project requirements, quality standards, and sustainable energy solutions.
+              Find answers to common questions about supplying solar energy to government buyers—PPAs, scheduling, metering, settlements, and compliance.
             </p>
           </div>
 
@@ -248,60 +298,60 @@ const Index = () => {
             <AccordionItem value="item-1" className="border-b border-black/20">
               <AccordionTrigger className="text-left hover:no-underline py-6">
                 <span className="text-black/60 text-lg mr-4">01</span>
-                <span className="text-lg font-medium">What quality standards do your solar panels meet?</span>
+                <span className="text-lg font-medium">What types of government buyers do you serve?</span>
               </AccordionTrigger>
               <AccordionContent className="pb-6 pl-12 text-black/70">
-                Our solar panels meet international IEC standards and are certified for government projects. We maintain strict quality control with 25-year performance warranties and rigorous testing protocols.
+                We supply to state DISCOMs, municipal corporations, public sector undertakings, utilities, and government departments under state and central procurement frameworks.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-2" className="border-b border-black/20">
               <AccordionTrigger className="text-left hover:no-underline py-6">
                 <span className="text-black/60 text-lg mr-4">02</span>
-                <span className="text-lg font-medium">Do you manufacture panels for government projects?</span>
+                <span className="text-lg font-medium">Do you sign and manage PPAs?</span>
               </AccordionTrigger>
               <AccordionContent className="pb-6 pl-12 text-black/70">
-                Yes, we specialize in manufacturing high-efficiency solar panels for government infrastructure projects, including solar farms, government buildings, and public facilities with strict compliance requirements.
+                Yes. We structure, negotiate, and manage PPAs with government buyers, including tariff terms, scheduling obligations, metering, and settlement clauses.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-3" className="border-b border-black/20">
               <AccordionTrigger className="text-left hover:no-underline py-6">
                 <span className="text-black/60 text-lg mr-4">03</span>
-                <span className="text-lg font-medium">What is your manufacturing capacity?</span>
+                <span className="text-lg font-medium">How do forecasting and scheduling work?</span>
               </AccordionTrigger>
               <AccordionContent className="pb-6 pl-12 text-black/70">
-                Our state-of-the-art manufacturing facility can produce up to 500MW of solar panels annually, with the capability to scale production to meet large government project requirements.
+                We provide day-ahead and intra-day schedules with real-time revisions per SLDC guidelines, using advanced forecasting to minimize DSM/deviation charges.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-4" className="border-b border-black/20">
               <AccordionTrigger className="text-left hover:no-underline py-6">
                 <span className="text-black/60 text-lg mr-4">04</span>
-                <span className="text-lg font-medium">What certifications do your panels have?</span>
+                <span className="text-lg font-medium">What compliance and approvals are handled?</span>
               </AccordionTrigger>
               <AccordionContent className="pb-6 pl-12 text-black/70">
-                Our panels are certified by IEC, UL, and CE standards. We also hold government procurement certifications and meet all regulatory requirements for public sector projects.
+                We handle SLDC registration, meter approvals, open access permissions (where applicable), grid connectivity, and adherence to CEA/CERC/SERC regulations.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-5" className="border-b border-black/20">
               <AccordionTrigger className="text-left hover:no-underline py-6">
                 <span className="text-black/60 text-lg mr-4">05</span>
-                <span className="text-lg font-medium">Do you provide technical support for government projects?</span>
+                <span className="text-lg font-medium">How are billing and settlements managed?</span>
               </AccordionTrigger>
               <AccordionContent className="pb-6 pl-12 text-black/70">
-                Yes, we offer comprehensive technical support including engineering consultation, project management, installation guidance, and ongoing maintenance support for all government solar projects.
+                We manage ABT-compliant metering, monthly energy accounting, deviation settlements, and transparent invoicing aligned with PPA terms and regulatory rules.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-6" className="border-b border-black/20">
               <AccordionTrigger className="text-left hover:no-underline py-6">
                 <span className="text-black/60 text-lg mr-4">06</span>
-                <span className="text-lg font-medium">How do I get started with solar?</span>
+                <span className="text-lg font-medium">How do government buyers get started?</span>
               </AccordionTrigger>
               <AccordionContent className="pb-6 pl-12 text-black/70">
-                Contact us for a free consultation and site assessment. We'll evaluate your energy needs, roof suitability, and provide a customized solar solution with detailed cost savings analysis.
+                Contact our procurement team with your demand profile and preferred tenure. We'll propose a compliant structure, timeline, and onboarding plan.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
@@ -321,7 +371,7 @@ const Index = () => {
               </h2>
             </div>
             <p className="text-black/70 text-lg max-w-2xl">
-              Ready to power your projects with our high-efficiency solar panels? Contact us for government project inquiries and custom manufacturing solutions.
+              Government buyer or utility? Reach out to source reliable solar power under compliant PPAs with full scheduling, metering, and settlement support.
             </p>
           </div>
 
@@ -330,27 +380,32 @@ const Index = () => {
             <div>
               <h3 className="text-2xl font-light mb-6">Kavita Bishnoi Energy Pvt. Ltd.</h3>
               <p className="text-black/70 text-lg mb-8">
-                Leading solar panel manufacturer committed to delivering clean, reliable, and affordable renewable energy solutions for government projects worldwide.
+                Supplier of solar energy from partner plants to government buyers—delivering contracted megawatts with regulatory compliance and operational excellence.
               </p>
               
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-black/10 rounded-full flex items-center justify-center">
-                    <span className="text-black font-semibold">📞</span>
-                  </div>
+                  <span className="text-black text-xl">📞</span>
                   <div>
                     <p className="text-black/60 text-sm">Phone</p>
-                    <p className="text-black font-medium">+91 9828215566</p>
+                    <p className="text-black font-medium">+91 9950618424</p>
                   </div>
                 </div>
                 
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center overflow-hidden">
-                      <img src="/whatsapp1.png" alt="WhatsApp" className="w-8 h-8 object-cover" />
-                    </div>
+                    <img src="/whatsapp1.png" alt="WhatsApp" className="w-6 h-6 object-contain" />
                   <div>
                     <p className="text-black/60 text-sm">WhatsApp</p>
-                    <p className="text-black font-medium">+91 9828215566</p>
+                    <p className="text-black font-medium">+91 9950618424</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-4">
+                  <span className="text-black text-xl">📧</span>
+                  <div>
+                    <p className="text-black/60 text-sm">Email</p>
+                    <p className="text-black font-medium">
+                      <a href="mailto:mahipalsaran2929@gmail.com" className="underline-offset-2 hover:underline">mahipalsaran2929@gmail.com</a>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -363,7 +418,7 @@ const Index = () => {
                   className="w-full bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-xl text-lg font-semibold"
                   asChild
                 >
-                  <a href="https://wa.me/9828215566" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/9950618424" target="_blank" rel="noopener noreferrer">
                     <span>Connect on WhatsApp</span>
                   </a>
                 </Button>
@@ -373,7 +428,7 @@ const Index = () => {
                   className="w-full border-black text-black hover:bg-black hover:text-white rounded-xl px-8 py-4 text-lg font-semibold"
                   asChild
                 >
-                  <a href="tel:+919828215566">
+                  <a href="tel:+919950618424">
                     <span>Call Now</span>
                   </a>
                 </Button>

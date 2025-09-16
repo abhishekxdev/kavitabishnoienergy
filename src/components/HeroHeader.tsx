@@ -5,11 +5,12 @@ import React from 'react'
 import { cn } from '@/lib/utils'
 
 const menuItems = [
-    { name: 'About', href: '#about' },
-    { name: 'Values', href: '#values' },
-    { name: 'Services', href: '#services' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'FAQ', href: '#faq' },
+    { name: 'About', href: '/#about' },
+    { name: 'Values', href: '/#values' },
+    { name: 'Services', href: '/#services' },
+    { name: 'Projects', href: '/projects' },
+    { name: 'Directors', href: '/#directors' },
+    { name: 'FAQ', href: '/#faq' },
 ]
 
 export const HeroHeader = () => {
@@ -91,7 +92,7 @@ export const HeroHeader = () => {
                                     size="sm"
                                     asChild>
                                     <a 
-                                        href="https://wa.me/9828215566" 
+                                        href="https://wa.me/9950618424" 
                                         target="_blank" 
                                         rel="noopener noreferrer"
                                         onClick={() => setMenuState(false)}>
